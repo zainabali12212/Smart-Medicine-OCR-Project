@@ -5,13 +5,13 @@ An advanced image processing pipeline designed to extract bilingual text (Arabic
 ## 🚀 Project Evolution (Stages)
 The project is organized into sequential stages, each addressing specific technical challenges:
 
-* **[Stage 1: Image Enhancement & Scaling](./Stage1)**
+* **[Proposed-Pre-processing-Pipeline](./Stage1)**
     * Implemented a pre-processing pipeline (Adaptive Scaling, Denoising, and Otsu’s Binarization) to handle **small fonts** and **background noise**, evaluated via a custom Traffic Light Reporting System.
 
-* **[Stage 2: Bilingual Support & Layout Analysis](./Stage2)**
+* **[Stage2-Bilingual-Analysis](./Stage2)**
     * Integrated **Bilingual Recognition (ara+eng)**. Analyzed the engine’s behavior with different layouts, including parallel columns (interleaving) and the impact of unsupported scripts.
 
-* **[Stage 3: Geometric Correction & Deskewing](./Stage3)**
+* **[Stage3-Geometric-Analysis](./Stage3)**
     * Solved **severe geometric distortions** using **Hough Transform** for text-line detection. Developed a robust rectification logic to handle images tilted up to 45 degrees.
 
 ## 🛠️ Key Technologies
